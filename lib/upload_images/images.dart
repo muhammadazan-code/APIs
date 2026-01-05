@@ -80,15 +80,15 @@ class _UploadImageState extends State<UploadImage> {
                           padding: const EdgeInsets.all(8.0),
                           child: Container(
                             width: 250,
-                            height: 150,
+                            height: 250,
                             decoration: BoxDecoration(
                               color: Colors.black,
-                              borderRadius: BorderRadius.circular(15),
+                              borderRadius: BorderRadius.circular(20),
                             ),
                             child: Center(
                               child: Image.file(
                                 File(image!.path).absolute,
-                                height: 150,
+                                height: 250,
                                 width: 250,
                                 fit: BoxFit.cover,
                               ),
